@@ -21,7 +21,6 @@ jobs:
           name: dist-files
           path: |
             dist
-            package.json
   build:
     needs: test
     runs-on: ubuntu-latest
